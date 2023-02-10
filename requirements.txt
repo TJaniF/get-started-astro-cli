@@ -4,4 +4,3 @@ geopy==2.3.0
 minio==7.1.13
 airflow-provider-duckdb==0.0.2
 astro-sdk-python==1.5.0
-astro-run-dag # This package is needed for the astro run command. It will be removed before a deploy

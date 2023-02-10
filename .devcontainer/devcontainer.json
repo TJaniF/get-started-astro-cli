@@ -3,6 +3,6 @@
   "features": {
       "ghcr.io/astronomer/devcontainer-features/astro-cli:1": {}
   },
-  "postCreateCommand": "astro dev start -n --wait 5m",
+  "postCreateCommand": "bash -i -c 'astro dev start -n'",
   "forwardPorts": [9090, 8080, 8501]
 }
